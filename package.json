@@ -1,0 +1,15 @@
+{
+  "name": "qa-bp-test-pom",
+  "version": "1.0.0",
+  "private": true,
+  "description": "QA BP practical assessment - E2E and API automation with Cypress using Page Object Model.",
+  "scripts": {
+    "test": "cypress run",
+    "test:e2e": "cypress run --spec cypress/e2e/saucedemo/checkout.cy.js",
+    "test:api": "cypress run --spec cypress/e2e/api/petstore-users.cy.js",
+    "test:headed": "cypress open"
+  },
+  "devDependencies": {
+    "cypress": "^14.5.4"
+  }
+}

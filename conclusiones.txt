@@ -1,0 +1,13 @@
+CONCLUSIONES - QA BP
+
+1. Se implementó una prueba E2E automatizada para el flujo de compra de SauceDemo, cubriendo autenticación, selección de dos productos, validación del carrito, checkout y confirmación de la orden.
+
+2. La automatización E2E utiliza Page Object Model (POM), separando los selectores y acciones de las páginas de la lógica del escenario. Esto mejora la mantenibilidad y facilita la reutilización.
+
+3. Se implementó una prueba de API para PetStore cubriendo el ciclo de vida de un usuario: creación, consulta, actualización, consulta posterior y eliminación.
+
+4. La prueba de API utiliza datos dinámicos para reducir el riesgo de conflictos entre ejecuciones.
+
+5. Las validaciones incluyen códigos de respuesta HTTP y datos relevantes de las respuestas.
+
+6. Los resultados de ejecución deben obtenerse ejecutando el proyecto contra los ambientes correspondientes. Este archivo no declara resultados que no hayan sido verificados mediante una ejecución real.
